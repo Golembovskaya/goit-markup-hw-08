@@ -1,0 +1,22 @@
+body {
+    font-family: var(--main-font-family);
+    color: var(--btn-main-color-text);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li {
+    padding: 0;
+    margin: 0;
+}
+
+.section {
+    padding-bottom: 94px;
+    padding-top: 94px;
+}

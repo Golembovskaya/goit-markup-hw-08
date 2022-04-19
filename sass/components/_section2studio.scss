@@ -1,0 +1,37 @@
+.advantages .advantages__h3-list-title {
+    margin-bottom: 10px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.advantages .advantages__p-list-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
+
+.advantages {
+    display: flex;
+    list-style: none;
+}
+
+.advantages__title+.advantages__title {
+    margin-left: 30px;
+}
+
+.advantages__deck-title {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 120px;
+    background-color: #f5f4fa;
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
