@@ -264,25 +264,6 @@ li {
   }
 }
 
-.burger-btn {
-  background-color: unset;
-  border: unset;
-  padding: unset;
-  line-height: 0;
-  fill: currentColor;
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.burger-btn:hover {
-  fill: var(--accent-color);
-  cursor: pointer;
-}
-
-.burger-btn__icon {
-  width: 24px;
-  height: 16px;
-}
-
 /*.header {
     font-family: var(--secondary-fond-family);
     font-style: normal;
