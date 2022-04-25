@@ -130,6 +130,8 @@ li {
   .navheader {
     display: flex;
     margin-left: 92px;
+    list-style: none;
+    border-style: none;
   }
   .navheader .navheader__item {
     margin-right: 50px;
@@ -191,6 +193,8 @@ li {
   }
   .contacts {
     margin-left: auto;
+    list-style: none;
+    border-style: none;
   }
   .contacts .contacts__item-contact + .contacts__item-contact {
     margin-right: 0;
@@ -236,6 +240,8 @@ li {
 @media screen and (min-width: 1200px) {
   .navheader {
     display: flex;
+    list-style: none;
+    border-style: none;
   }
   .navheader .navheader__item {
     margin-right: 50px;
@@ -249,11 +255,32 @@ li {
   }
   .contacts {
     display: flex;
+    list-style: none;
+    border-style: none;
   }
   .contacts__item-contact {
     margin-right: 30px;
     margin-bottom: 0px;
   }
+}
+
+.burger-btn {
+  background-color: unset;
+  border: unset;
+  padding: unset;
+  line-height: 0;
+  fill: currentColor;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.burger-btn:hover {
+  fill: var(--accent-color);
+  cursor: pointer;
+}
+
+.burger-btn__icon {
+  width: 24px;
+  height: 16px;
 }
 
 /*.header {

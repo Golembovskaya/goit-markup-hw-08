@@ -48,6 +48,8 @@
 .navheader {
     display: flex;
     margin-left: 92px;
+    list-style: none;
+    border-style: none;
 }
 
 .navheader .navheader__item {
@@ -118,7 +120,8 @@
 }
 
 .contacts {
-    margin-left: auto;
+    margin-left: auto;list-style: none;
+    border-style: none;
 }
 
 .contacts .contacts__item-contact+.contacts__item-contact {
@@ -172,6 +175,8 @@
 @media screen and (min-width:1200px){
 .navheader {
     display: flex;
+    list-style: none;
+    border-style: none;
 }
 
 .navheader .navheader__item {
@@ -186,6 +191,8 @@
 }
 .contacts {
     display: flex;
+    list-style: none;
+    border-style: none;
 }
 .contacts__item-contact {
     margin-right: 30px;
@@ -193,6 +200,7 @@
 }
 
 }
+
 /*.header {
     font-family: var(--secondary-fond-family);
     font-style: normal;
