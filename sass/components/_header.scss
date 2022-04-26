@@ -9,7 +9,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 15px;
+    padding-top: 16px;
+    padding-bottom: 16px;
     margin: 0 auto;
     
 }
@@ -215,7 +216,6 @@
         cursor: pointer;
     }
 }
-
 .mobile-menu {
     position: fixed;
     z-index: 100;
@@ -232,7 +232,7 @@
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
         visibility 205ms cubic-bezier(0.4, 0, 0.2, 1);
 
-    &__conteiner {
+    &__container {
         height: 100vh;
         display: flex;
         flex-direction: column;
@@ -271,75 +271,28 @@
     height: 40px;
 }
 
-.close-icon {
-    width: 40px;
-    height: 40px;
+.list {
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 47px;
+text-align: center;
+letter-spacing: 0.02em;
+
+color: #2196F3;
+list-style: none;
+
+
 }
-.nav-menu {
-    list-style: none;
-    margin-bottom: auto;
+.nav-menu__item{
+list-style: none;
+border-style: none;
 
-    &__item {
-        font-family: var(--main-font-family);
-        @include font(40px, 500, 47px);
-    }
-
-    &__link {
-        color: #212121;;
-        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    &__item:not(:last-child) {
-        margin-bottom: 32px;
-    }
-
-    &__link:hover {
-        color: var(--navigation-color);
-    }
 }
-.nav-address {
-    &__tel {
-        font-family:var(--main-font);
-        @include font(32px, 500, 40px);
-        margin-bottom: 32px;
-    }
+.link {
+text-decoration: none;
 
-    &__tel-link {
-        color: var(--accent-color);
-    }
-
-    &__mail {
-        font-family: var(--navigation-color);
-        @include font(24px, 500, 28px);
-        margin-bottom: 64px;
-    }
-
-    &__mail-link {
-        color: var(--secondary-text-color);
-    }
-}
-
-.nav-social {
-    display: flex;
-    margin-bottom: 48px;
-    flex-wrap: wrap;
-
-    &__item {
-        font-family: var(--main-font-family);
-        @include font(18px, 500, 22px);
-    }
-
-    &__link {
-        color: var(--navigation-color);
-    }
-
-    &__item:not(:last-child)::after {
-        margin-left: 10px;
-        margin-right: 10px;
-        content: "";
-        border: 1px solid rgba(33, 33, 33, 0.2);
-        transform: rotate(90deg);
-    }
 }
 
 @media screen and (min-width: 768px) {
