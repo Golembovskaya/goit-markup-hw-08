@@ -8,10 +8,10 @@
 .header-container {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 0 15px;
     margin: 0 auto;
-    display: flex;
-    align-items: center;
+    
 }
 .logo-blue {
     color: var(--navigation-color);
@@ -186,6 +186,8 @@
     position: relative;
 }
 .header-container {
+    display: flex;
+
     padding-top: 25px;
     padding-bottom: 25px;
 }
