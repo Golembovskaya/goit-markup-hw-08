@@ -51,7 +51,8 @@ li {
 
 .container {
   width: 100%;
-  padding: 0 15px;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 @media screen and (min-width: 480px) {
@@ -193,8 +194,6 @@ li {
   }
   .contacts {
     margin-left: auto;
-    list-style: none;
-    border-style: none;
   }
   .contacts .contacts__item-contact + .contacts__item-contact {
     margin-right: 0;
@@ -532,6 +531,14 @@ li {
     height: 16px;
     margin-right: 10px;
 }*/
+.title {
+  background-color: #c4c4c4;
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../);
+  /* background-position: 50% 50%; */
+  background-size: cover;
+  text-align: center;
+}
+
 /*.title {
     margin: 0 auto;
     padding-top: 200px;
