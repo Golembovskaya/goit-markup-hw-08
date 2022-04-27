@@ -2,7 +2,7 @@
     background-color: #c4c4c4;
     background-image: linear-gradient(rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
-    url(../img/studio/mobile/hero-img.jpg);
+    url(../../img/studio/mobile/hero-img.jpg);
     /* background-position: 50% 50%; */
     background-size: cover;
     text-align: center;
@@ -13,11 +13,26 @@
     .title {
         background-image: linear-gradient(rgba(47, 48, 58, 0.4),
                 rgba(47, 48, 58, 0.4)),
-            url(../img/);
+            url(../../img/studio/mobile/hero-img@2x.jpg);
     }
 }
-
-
+.title-section{
+    width: 100%;
+    padding-top: 118px;
+    padding-bottom: 118px;
+}
+.title__first{
+    margin-bottom: 30px;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    
+    color: var(--btn-tittle);
+    font-family: var(--main-font-family);
+}
 
 /*.title {
     margin: 0 auto;
