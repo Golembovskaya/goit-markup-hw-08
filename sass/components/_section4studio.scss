@@ -64,6 +64,9 @@
         flex-wrap: wrap;
         margin-top: -30px;
         margin-left: -30px;
+        list-style: none;
+        justify-content: center;
+        align-items: center;
     }
 
     .team__list-title-imgs {
@@ -81,6 +84,8 @@
         display: flex;
         margin-top: -30px;
         margin-left: -30px;
+        justify-content: center;
+        align-items: center;
     }
 
     .team__list-title-imgs {
@@ -166,6 +171,7 @@
         height: 20px;
     }
 }
+
 /*.list-imgs__h2-title {
     font-style: normal;
     font-weight: 700;
