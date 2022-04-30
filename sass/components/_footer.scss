@@ -18,11 +18,7 @@
 .footer-container {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    
-}
-.footer__adress{
-    margin-bottom: 60px;
+    text-align: center;  
 }
 
 .footer__contact:not(:last-child) {
@@ -108,9 +104,7 @@
     fill: #fff;
 }
 .footer__subscription{
-    
     margin: 0 auto;
-    margin-bottom: 60px;
 }
 .footer__subtitle{
     font-family: var(--main-font-family);
@@ -125,6 +119,30 @@
     
     color: #ffffff;
 }
+.footer-form__input {
+    width: 450px;
+    height: 50px;
+    padding-left: 16px;
+    margin-right: 12px;
+    margin-bottom: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    box-sizing: border-box;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+    border-radius: 4px;
+    background: transparent;
+
+    color: #FFFFFF;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:focus {
+        border-color: var(--navigation-color);
+        outline: none;
+
+    }
+}
+
+
 @media screen and (min-width: 768px) and (max-width: 1199px) {
     .footer-container {
         flex-direction: unset;
@@ -141,6 +159,8 @@
     .footer__subscription {
         margin: 0 auto;
     }
+    .footer-form__input {
+        width: 450px;}
 }
 @media screen and (min-width: 1200px) {
     .footer-container {
@@ -148,11 +168,17 @@
         justify-content: space-between;
         flex-direction: unset;
         text-align: unset;
+       
         
     }
 
     .footer__social-container {
         margin: 0;
+    }
+    .footer-form__input{
+        margin-right: 12px;
+        margin-bottom: 0;
+        width: 358px;
     }
 }
 .subscription{
@@ -164,28 +190,7 @@
     color: #ffffff;
   
 }
-.footer-form__input{
-    width: 450px;
-    height: 50px;
-    padding-left: 16px;
-    margin-right: 12px;
-    margin-bottom: 20px;
-    border: 1px solid rgba(255, 255, 255, 0.3);
-    box-sizing: border-box;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
-    border-radius: 4px;
-    background: transparent;
-    display: flex;
-    color: #FFFFFF;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    
-    &:focus {
-        border-color: var(--navigation-color);
-        outline: none;
-    
-    }
-}
+
 .submit-btn {
     display: inline-flex;
     justify-content: center;
@@ -230,9 +235,11 @@
     }
     .footer__adress {
         width: 230px;
-        text-align: unset;
         margin-right: 70px;
     
+    }
+    .adress__list{
+        text-align: unset;
     }
 }
 /*.footer {

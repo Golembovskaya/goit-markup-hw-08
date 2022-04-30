@@ -1945,10 +1945,6 @@ li {
   text-align: center;
 }
 
-.footer__adress {
-  margin-bottom: 60px;
-}
-
 .footer__contact:not(:last-child) {
   margin-bottom: 9px;
 }
@@ -2035,7 +2031,6 @@ li {
 
 .footer__subscription {
   margin: 0 auto;
-  margin-bottom: 60px;
 }
 
 .footer__subtitle {
@@ -2044,43 +2039,6 @@ li {
   padding-top: 12px;
   margin-bottom: 20px;
   font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #ffffff;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1199px) {
-  .footer-container {
-    flex-direction: unset;
-    flex-wrap: wrap;
-    padding-left: 86px;
-    padding-right: 86px;
-  }
-  .footer__social-container {
-    margin: 0;
-    margin-left: auto;
-  }
-  .footer__subscription {
-    margin: 0 auto;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .footer-container {
-    display: flex;
-    justify-content: space-between;
-    flex-direction: unset;
-    text-align: unset;
-  }
-  .footer__social-container {
-    margin: 0;
-  }
-}
-
-.subscription {
-  font-weight: bold;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -2099,7 +2057,6 @@ li {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background: transparent;
-  display: flex;
   color: #FFFFFF;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -2108,6 +2065,51 @@ li {
 .footer-form__input:focus {
   border-color: var(--navigation-color);
   outline: none;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1199px) {
+  .footer-container {
+    flex-direction: unset;
+    flex-wrap: wrap;
+    padding-left: 86px;
+    padding-right: 86px;
+  }
+  .footer__social-container {
+    margin: 0;
+    margin-left: auto;
+  }
+  .footer__subscription {
+    margin: 0 auto;
+  }
+  .footer-form__input {
+    width: 450px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: unset;
+    text-align: unset;
+  }
+  .footer__social-container {
+    margin: 0;
+  }
+  .footer-form__input {
+    margin-right: 12px;
+    margin-bottom: 0;
+    width: 358px;
+  }
+}
+
+.subscription {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
 }
 
 .submit-btn {
@@ -2152,8 +2154,10 @@ li {
   }
   .footer__adress {
     width: 230px;
-    text-align: unset;
     margin-right: 70px;
+  }
+  .adress__list {
+    text-align: unset;
   }
 }
 
