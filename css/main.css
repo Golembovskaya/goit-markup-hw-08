@@ -202,6 +202,10 @@ li {
   .contacts .contacts__item-contact + .contacts__item-contact {
     margin-right: 0;
   }
+  .cont-list {
+    padding: 0;
+    margin: 0;
+  }
   .contacts__item-contact .contacts__contact {
     color: var(--secondary-text-color);
     fill: var(--secondary-text-color);
