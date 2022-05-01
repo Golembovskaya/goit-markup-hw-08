@@ -249,6 +249,9 @@ li {
   .navheader .navheader__item {
     margin-right: 50px;
   }
+  .navheader .navheader__item:last-child {
+    margin-right: 0;
+  }
   .navheader__item {
     position: relative;
   }
