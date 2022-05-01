@@ -96,6 +96,11 @@
     color: var(--secondary-text-color);
     text-shadow: none;
 }
+.img-portfolio-projects{
+    display: block;
+    width: 100%;
+    height: auto;
+}
 @media screen and (max-width: 767px) {
     .images:not(:first-child) {
         margin-top: 30px;
