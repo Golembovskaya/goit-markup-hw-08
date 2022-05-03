@@ -8,7 +8,8 @@
   font-family: var(--main-font-family);
   display: flex;
   list-style: none;
-  flex-wrap: wrap;margin-bottom: 50px;
+  flex-wrap: wrap;margin-bottom: 25px;
+  
 }
 .filter__item{
   margin-top: 8px;
@@ -41,18 +42,20 @@
 }
 
 @media screen and (min-width: 768px) {
-  .filter-container {
-    margin-bottom: 30px;
-  }
-
   .filter {
     flex-wrap: unset;
     justify-content: center;
+    margin-bottom: 45px;
   }
+  
 }
 
 @media screen and (min-width: 1200px) {
-  .filter-container {
-    margin-bottom: 50px;
-  }
+.button-portfolio {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.filter {
+  margin-bottom: 65px;
+}
 }

@@ -3,7 +3,7 @@
     padding-bottom: 60px;
 }
 .section__regular-customers {
-    margin-bottom: 50px;
+    margin-bottom: 30px;
     font-family: var(--main-font-family);
     font-style: normal;
     font-weight: 700;
@@ -60,5 +60,14 @@
 @media screen and (min-width: 1200px) {
     .customers__imegs-regular {
         flex-basis: calc((100% - 180px) / 6);
+    }
+    .regular-customers {
+        padding-top: 94px;
+        padding-bottom: 94px;
+    }
+    .section__regular-customers {
+        font-size: 36px;
+        line-height: 1.17;
+        margin-bottom: 50px;
     }
 }
