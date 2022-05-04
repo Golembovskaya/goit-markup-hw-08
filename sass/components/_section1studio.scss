@@ -43,6 +43,7 @@
                 url(../img/studio/tablet/hero-img.jpg);
         }
     }
+   
 
     @media (min-device-pixel-ratio: 2),
     (min-resolution: 192dpi),
@@ -54,6 +55,7 @@
         }
     }
 }
+
 @media screen and (min-width: 1200px) {
     .title-section {
         padding-top: 200px;
@@ -186,7 +188,7 @@
     letter-spacing: 0.03em;
 
     color: #212121;
-    margin-bottom: 15px;
+    margin-bottom: 12px;
 }
 
 .modal-form__field {
@@ -235,7 +237,8 @@
 .container-icon {
     display: block;
     position: relative;
-    margin-top: 5px;
+    margin-top: 4px;
+    margin-bottom: 10px;
 
     &:hover {
         outline: none;
@@ -270,7 +273,7 @@
     resize: none;
     padding: 12px 16px;
     outline: none;
-    margin-top: 5px;
+    margin-top: 4px;
 
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -357,6 +360,13 @@
 @media screen and (min-width: 768px) {
     .modal {
         width: 450px;
+    }
+    .modal-form a {
+        font-size: 11px;
+    }
+    
+    .modal-form__checkbox-policy {
+        font-size: 11px;
     }
 }
 
